@@ -16,5 +16,6 @@ if [ ! -d "~/$VimUndo_dir" ]; then
     mkdir -p ~/$VimUndo_dir || exit 1
 fi
 
+mkdir -p ~/.vim || exit 1
 cp -r $Setup_dir/colors ~/.vim || exit 1
-cp .vimrc ~ || exit 1
+cp $Setup_dir/.vimrc ~ || exit 1
