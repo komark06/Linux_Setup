@@ -24,3 +24,8 @@ inoremap [ []<Esc>i
 inoremap {<CR> {<CR>}<Esc>ko
 inoremap {{ {}<ESC>i
 filetype indent on
+filetype indent plugin on
+set wildmenu
+set ignorecase
+set smartcase
+set smarttab
