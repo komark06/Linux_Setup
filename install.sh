@@ -17,3 +17,7 @@ fi
 mkdir -p ~/.vim || exit 1
 cp -r colors ~/.vim || exit 1
 cp .vimrc ~ || exit 1
+
+# Install docker 
+./docker-install.sh
+
