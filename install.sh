@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-Basic_software="vim-gtk build-essential curl git htop glances gh clang-format valgrind cppcheck linux-tools-common tree"
+Basic_software="vim-gtk3 build-essential curl git htop glances gh clang-format valgrind cppcheck linux-tools-common tree"
 Setup_dir=Linux_Setup
 VimUndo_dir=.vim/undo
 
