@@ -29,3 +29,4 @@ set wildmenu
 set ignorecase
 set smartcase
 set smarttab
+cmap w!! w !sudo tee > /dev/null %
